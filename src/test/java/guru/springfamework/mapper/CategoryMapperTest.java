@@ -2,11 +2,10 @@ package guru.springfamework.mapper;
 
 import guru.springfamework.api.v1.model.CategoryDTO;
 import guru.springfamework.domain.Category;
-import junit.framework.TestCase;
 
-import java.util.Optional;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CategoryMapperTest extends TestCase {
+public class CategoryMapperTest{
 
     public static final String NAME = "Joe";
     public static final long ID = 1L;
